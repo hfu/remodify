@@ -1,10 +1,10 @@
 # remodify
-apply modify.json to NDJSON (again)
+Apply modify.json to NDJSON (again)
 
 # Background
 [modify-spec](https://github.com/hfu/modify-spec) is used to modify GeoJSON features for tippecaoe in [pnd](https://github.com/hfu/pnd), which is to export features from PostGIS.
 
-I wanted to separate modify process from PostGIS export part.
+I wanted to separate modify process from the PostGIS export part.
 
 # Install
 ```sh
