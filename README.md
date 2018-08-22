@@ -16,7 +16,7 @@ $ npm install
 # Usage
 index.js needs two parameter. The first parameter is the path to the modify.js. The second parameter is the path to the ndjson file. Outout will be to stdout.
 ```sh
-$ node index.js somewhere/modify.js somewhere/input.ndjson > somewhere/output.ndjson
+$ cat somewhere/input.ndjson | node index.js somewhere/modify.js > somewhere/output.ndjson
 ```
 
 # See also
